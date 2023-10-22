@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html,
+.body{
+    height: 100%;
+}
+
+body > header {
+    width: 100%;
+    padding: 17px 2%;
+    height: fit-content;
+    background-color: lightgray;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo1 {
+    float: left;
+    margin: auto 0;
+    width: 150px;
+    height: auto;
+}
+
+.logo2 {
+    float: right;
+    margin: auto 0;
+    width: 160px;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
