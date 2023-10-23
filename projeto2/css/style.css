@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .html,
@@ -17,7 +18,7 @@ body > header {
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -37,4 +38,140 @@ body > header {
 
 .clear {
     clear: both;
+}
+
+.upper{
+    margin: 0 auto;
+    width: 60%;
+    height: calc(fit-content - 50px);
+    position: relative;
+    background-image: url(../images/bg-form.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-container{
+    width: 360px;
+    height: fit-content;
+    background-color: white;
+    float: right;
+    margin-top: -10px;
+    padding-bottom: 30px;
+    margin-right: 4%;
+}
+
+.form-container > form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container h2{
+    font-size: 18px;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: rgb(200, 200, 200);
+    color: gray;
+}
+
+.form-wrapper{
+    padding: 16px 6px;
+    width: 90%;
+}
+
+.form-wrapper label{
+    font-size: 13px;
+    color: gray;
+}
+
+.form-wrapper input{
+    width: 100%;
+    display: block;
+    padding: 10px 14px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: gray;
+}
+
+input[type=submit]{
+    margin-top: 30px;
+    width: calc(90% - 12px);
+    padding: 8px;
+    background-image: linear-gradient(to bottom right, green 30%, yellow 30%, blue);
+    border-radius: 4px;
+    border: 2px solid gray;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.upper img{
+    transform: translatey(50%);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    z-index: 1;
+}
+
+.middle{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.middle > div{
+    padding: 40px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.middle h2{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.middle h3{
+    font-size: 18px;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexcontainer p{
+    text-align: justify;
+    background-color: lightskyblue;
+    padding: 40px;
+    font-size: 14px;
+}
+
+.oddrow{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.evenrow{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.mosaic1{background-image: url(../images/mosaico1.jpg);}
+
+.mosaic2{background-image: url(../images/mosaico2.jpg);}
+
+.mosaic3{background-image: url(../images/mosaico3.jpg);}
+
+.mosaic4{background-image: url(../images/mosaico4.jpg);}
+
+.mosaic1,
+.mosaic2,
+.mosaic3,
+.mosaic4{
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
