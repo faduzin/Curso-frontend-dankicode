@@ -90,7 +90,7 @@ body > header {
 .form-wrapper input{
     width: 100%;
     display: block;
-    padding: 10px 14px;
+    padding: 10px 2%;
     font-size: 15px;
     border: 1px solid gray;
     border-radius: 4px;
@@ -191,8 +191,6 @@ footer img{
         margin: 0 auto;
     }
 
-
-
     .oddrow,
     .evenrow{
         display: block;
@@ -202,5 +200,15 @@ footer img{
     .evenrow > div{
         width: 100%;
         height: 300px;
+    }
+}
+
+@media (max-width: 510px) {
+    .logo1,
+    .logo2{
+        float: none;
+        display: block;
+        padding: 10px;
+        margin: 0 auto;
     }
 }
