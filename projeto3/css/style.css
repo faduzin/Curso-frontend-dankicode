@@ -16,9 +16,10 @@ html, body{
 
 .clear{clear: both;}
 
-header{
+.upper-page{
     width: 100%;
     height: 90vh;
+    min-height: 800px;
     background-image: url(../images/capa.png);
     background-position: center;
     background-size: cover;
@@ -26,27 +27,86 @@ header{
 
 .container{
     width: 100%;
-    max-width: 1440px;
-    padding-top: 40px;
-}
-
-.container > ul{
-    float: right;
-    font-size: 20px;
-    list-style: none;
-}
-
-ul > li{
-    display: inline-block;
-    padding: 0 12px;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 40px 2%;
 }
 
 .logo{
-    width: 160px;
-    height: 40px;
+    width: 180px;
+    height: 24px;
+    float: left;
     background-image: url(../images/logo-danki.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 
+}
+
+.menu{
+    float: right;
+}
+
+a{
+    color: white;
+}
+
+.desktop li{
+    padding-right: 3px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.mobile{
+    display: none;
+}
+
+.tcontainer{
+    width: 40%;
+    float: right;
+    margin: 10% 100px;
+}
+
+.text > h2{
+    font-size: clamp(25px, 4vw, 70px);
+    text-transform: capitalize;
+    color: white;
+}
+
+.text > p{
+    padding-top: 5px;
+    font-size: clamp(16px, 2vw, 40px);
+    text-transform: capitalize;
+    color: white;
+}
+
+.page{
+    width: 100%;
+    height: 50vh;
+    background-color: #472562;
+    position: relative;
+}
+
+.tcontainer2{
+    float: left;
+    margin-left: 10%;
+
+}
+
+.tcontainer2 li{
+    margin-left: 5px;
+    text-transform: capitalize;
+    list-style-type: square;
+    list-style-position: inside;
+    color: white;
+}
+
+.phones{
+    float: right;
+    width: 400px;
+    height: 50vh;
+    background-image: url(../images/device.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
