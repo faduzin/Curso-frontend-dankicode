@@ -149,17 +149,17 @@ a{
     aspect-ratio: 4 / 2;
     background-image: url(../images/mockup.jpg);
     background-size: 100% 100%;
+    margin-bottom: -50px;
 }
 
 .page-3{
     position: relative;
-    top: -40px;
     z-index: -1;
 }
 
 .sec{
     width: 50%;
-    height: 35vh;
+    height: 40vh;
     float: left;
 }
 
@@ -187,7 +187,67 @@ a{
     text-align: justify;
 }
 
-.page-4{
+.page-4{ 
+    position: relative;
+    padding: 2%;
     background-color: darkorchid;
     width: 100%;
+}
+
+.contato{
+    width: 48%;
+    color: white;
+    float: left;
+}
+
+.contato form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato input{
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.contato input[type=submit]{
+    width: 150px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: lightpink;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contato input[type=text]{
+    height: 300px;
+}
+
+.map{
+    float: left;
+    padding: 30px;
+    width: 48%;
+    height: 100%;
+    background-color: gray;
+}
+
+footer{
+    background-color: gray;
+}
+
+footer h3{
+    font-size: 16px;
+    color:white;
+    padding: 2%;
+}
+
+#direitos{
+    float: left;
+}
+
+#email{
+    float:right
 }
