@@ -101,7 +101,7 @@ a{
 
 .tcontainer2 li{
     margin-left: 5px;
-    text-transform: capitalize;
+   text-transform: capitalize;
     list-style-type: square;
     list-style-position: inside;
     color: white;
@@ -110,6 +110,17 @@ a{
 
 .tcontainer2 h2{font-size: clamp(24px, calc(2vw + 9px), 44px);}
 .tcontainer2 p{font-size: clamp(16px, 2vw, 36px);}
+
+.tcontainer2 button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
 
 .phones{
     float: left;
@@ -138,4 +149,45 @@ a{
     aspect-ratio: 4 / 2;
     background-image: url(../images/mockup.jpg);
     background-size: 100% 100%;
+}
+
+.page-3{
+    position: relative;
+    top: -40px;
+    z-index: -1;
+}
+
+.sec{
+    width: 50%;
+    height: 35vh;
+    float: left;
+}
+
+.team{
+    background-color: blueviolet;
+    color: white;
+}
+
+.tcontainer4{
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    text-align: left;
+    padding: 2%;
+}
+
+.tcontainer4 h2{
+    font-weight: 100;
+    font-size: 27px;
+}
+
+.tcontainer4 p{
+    padding-top: 6px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.page-4{
+    background-color: darkorchid;
+    width: 100%;
 }
